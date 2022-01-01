@@ -1,6 +1,6 @@
 # Decentralized Escrow Application
 
-This is an Escrow Dapp built with [Hardhat](https://hardhat.org/).
+This is an Escrow Dapp built with [Hardhat](https://hardhat.org/). It uses the Rinkeby test network but can be configured to run on a local test network instead by modifying `hardhat.config.js`.
 
 ## Project Layout
 

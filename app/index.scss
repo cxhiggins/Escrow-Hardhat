@@ -1,6 +1,7 @@
 body {
   background-color: #eee;
   display: flex;
+  flex-direction: column;
   font-family: 'Muli', sans-serif;
 }
 
@@ -10,6 +11,24 @@ body {
   padding: 40px;
   border: 1px solid #ddd;
   background-color: #fff;
+}
+
+.heading {
+  margin: 20px;
+  width: 90%;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading a {
+  color: black;
+  text-decoration: none;
+}
+
+.heading a:hover {
+  color: #aaa;
 }
 
 h1 {
@@ -67,4 +86,9 @@ input[type="text"] {
 .existing-contract .complete {
   color: #5aa75a;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
 }
